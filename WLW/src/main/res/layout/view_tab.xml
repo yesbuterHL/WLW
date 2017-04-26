@@ -1,0 +1,74 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_weight="1.0">
+    <Button
+        android:id="@+id/button_state1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:button="@null"
+        android:gravity="center"
+        android:singleLine="true"
+        android:tag="1"
+        android:text="首页"
+        android:textColor="@color/tabview_btn_text_color"
+        android:textSize="18dp" />
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="2"
+            android:text="库房"
+            android:textColor="@color/tabview_btn_text_color"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="3"
+            android:text="作业"
+            android:textColor="@color/tabview_btn_text_color"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="4"
+            android:text="统计"
+            android:textColor="@color/tabview_btn_text_color"
+            android:textSize="18dp" />
+    </FrameLayout>
+</merge>
