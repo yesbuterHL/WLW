@@ -3,6 +3,7 @@ package net.tzsoft.wlw.activity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -13,7 +14,7 @@ import android.widget.Toast;
 import net.tzsoft.wlw.R;
 import net.tzsoft.wlw.utils.L;
 
-public class BaseActivity extends FragmentActivity implements View.OnClickListener {
+public class BaseActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView mTitleTextView;
     private Button mBackwardbButton;
     private Button mForwardButton;

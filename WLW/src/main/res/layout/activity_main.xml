@@ -5,17 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" tools:context="net.tzsoft.wlw.activity.MainActivity"
     android:orientation="vertical">
-
+    <include layout="@layout/layout_titlebar"></include>
     <FrameLayout
         android:id="@+id/layout_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1.0" />
+        android:layout_weight="1"/>
     <net.tzsoft.wlw.view.TabView
         android:id="@+id/tabview"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/tab_main_color">
-
-    </net.tzsoft.wlw.view.TabView>
+        android:background="@color/tab_main_color"
+        />
 </LinearLayout>
